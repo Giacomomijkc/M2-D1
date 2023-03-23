@@ -1,0 +1,276 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/*regole di reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #14183d;
+    padding: 10px 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    margin: 0 25px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.icon{
+    top: 2px;
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.candidati{
+    width: 150px;
+    height: 45px;
+    background-color: #00FFFF;
+    color: black;
+    font-weight:600;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.language-options{
+    width: 25px;
+    height: 25px;
+    border-radius: 200px;
+    margin: 0 10px;
+}
+
+.section1{
+    display: flex;
+    background-color: #14183d;
+    margin-top: 75px;
+    padding-top: 40px;
+}
+
+.section1-left{
+    width: 60%;
+    padding-left: 20px;
+}
+
+.hero-title{
+    font-size: 48pt;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.hero-paragrafo{
+    font-size: 18pt;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.hero-list{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 18pt;
+    font-weight: 300;
+    line-height: 35px;
+    color: fuchsia;
+}
+
+.hero-list-element-text{
+    color: white;
+}
+
+.candidati-ora{
+    margin-top: 30px;
+    width: 180px;
+    height: 60px;
+    background-color: #00FFFF;
+    color: black;
+    font-weight:600;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section1-right{
+    padding-right: 20px;
+}
+
+.section1-right-image{
+    width: 650px;
+}
+
+.section2{
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding-top: 70px;
+}
+
+.centered-title{
+    font-size: 40pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.centered-paragrafo{
+    font-size: 15pt;
+    margin: 0 50px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.step{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 60px 5px;
+}
+
+.step-item{
+    border: solid 3px;
+    border-image: linear-gradient(90deg,#2d27df 0%,#cb2376 100%) 1;
+    border-radius: 20px;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%); 
+    width: 330px;
+}
+
+.step-title{
+    display: flex;
+    align-items: center;
+}
+
+.step-number{
+    font-size: 38pt;
+    font-weight: bold;
+    color: fuchsia;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.step-description{
+    font-size: 16pt;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.step-info{
+    font-size: 12pt;
+    font-weight: lighter;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.mi-candido{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 600px;
+    width: 180px;
+    height: 60px;
+    background-color: #00FFFF;
+    color: black;
+    font-weight:600;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section3{
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 430px;
+    background-color: white;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.card-data{
+    color: black;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.card-title{
+    color: #34363f;
+    font-weight:700;
+    font-size: 15pt;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-button{
+    margin-top: 30px;
+    border: none;
+    background-color: #950484;
+    color: white;
+    margin-left: 140px;
+    width: 150px;
+    height: 60px;
+    font-weight:600;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card-posti{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #950484;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
